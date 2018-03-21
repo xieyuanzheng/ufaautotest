@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>众家联自动化测试</title>
+    <style type="text/css">
+        #mainTable{
+            width: 600px;
+            height: 300px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -250px;
+            margin-top: -150px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="mainTable">
+            <table border="1px" align="center">
+                <thead>
+                    <tr>
+                        <td colspan="6"  align="center" height="30px"><b>众家联自动化测试</b></td>
+                    </tr>
+                    <tr>
+                        <td align="center">ID</td>
+                        <td align="center">名称</td>
+                        <td align="center">预期结果</td>
+                        <td align="center">实际结果</td>
+                        <td align="center">是否通过</td>
+                        <td align="center">备注</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>TC01</td>
+                        <td>获取东莞湿度信息</td>
+                        <td>76%</td>
+                        <td>76%</td>
+                        <td>通过</td>
+                        <td>信息来自中央气象局</td>
+                    </tr>
+                    <tr>
+                        <td>TC02</td>
+                        <td>获取北京湿度信息</td>
+                        <td>37%</td>
+                        <td>46%</td>
+                        <td>不通过</td>
+                        <td>信息来自中央气象局</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<h1>{{ hello1 }}</h1>
+</body>
+</html>
